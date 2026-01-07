@@ -3,7 +3,7 @@ name: Evening A-Share Push
 on:
   schedule:
     # 北京时间 16:35 = UTC时间 8:35
-    - cron: '35 8 * * *'
+    - cron: '35 6 * * *'
   workflow_dispatch: # 允许手动点击测试
 
 jobs:
